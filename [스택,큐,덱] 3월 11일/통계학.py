@@ -6,7 +6,7 @@ for _ in range(N):
     arr.append(int(input()))
 
 #1 산술 평균
-print("%.f"%(sum(arr)/N))
+print(round(sum(arr)/N))
 
 #2 중앙값
 arr.sort() #정렬 후
